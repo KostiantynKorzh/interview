@@ -1,0 +1,5 @@
+/jdbc/.gradle/
+/jdbc/build/
+/jdbc/gradle/
+/jdbc/.gradle
+/.idea/

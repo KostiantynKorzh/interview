@@ -1,0 +1,19 @@
+apply plugin: 'java'
+
+sourceCompatibility = 15
+targetCompatibility = 15
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'com.oracle.database.jdbc', name: 'ojdbc10', version: '19.14.0.0'
+    implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.28'
+
+}
+
+java {
+    withSourcesJar()
+    withJavadocJar()
+}
